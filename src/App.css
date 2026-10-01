@@ -1,0 +1,31 @@
+/* --- Fondo y Overlay de la Hero Section --- */
+.hero-banner {
+  min-height: 85vh;
+  /* Imagen de instrumentos musicales / estudio en casa */
+  background: url("https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=1600&q=80") center/cover no-repeat;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 12, 16, 0.78); /* Filtro oscuro para resaltar el texto */
+}
+
+/* --- Tipografía y Contenedores --- */
+.hero-title {
+  letter-spacing: -1px;
+  line-height: 1.15;
+}
+
+.max-w-700 {
+  max-width: 700px;
+}
+
+/* Ajustes adicionales para Navbar */
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
